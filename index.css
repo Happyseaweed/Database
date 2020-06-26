@@ -1,0 +1,177 @@
+
+/* Header & Body */
+body, html {
+    background-image: url(rain.jpg);
+    background-size: 100%;
+    overflow: hidden;
+}
+
+form {
+    
+}
+
+
+
+/* -----------------------------------------------Container box */
+
+.container {
+    /* format + style */
+    background-color: transparent;
+    opacity: 0.9;
+    /* centering */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /* size */
+    width: 800px;
+    height: 400px;
+}
+
+/* ------------------------------------------------Display*/
+
+.displayBox {
+    /* format + style */
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    opacity: 2;
+    /* position */
+    display: inline-block;
+    
+    
+    /* size */
+    width: 300px;
+    height: 400px;
+}
+
+.displayBox h1 {
+    /* colors + style */
+    color: white;
+    padding: 30px 0;
+    margin: 0;
+    
+    /* text */
+    font-family: monospace;
+    font-size: 140px;   
+}
+
+.displayBox h2 {
+    /* colors + style */
+    color: white;
+    /* format */
+    margin: 50px;
+    
+    /* text */
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.displayBox a{
+    /*color + style */
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid white;
+    font-size: 14px;
+}
+
+.displayBox a:hover{
+    /* color + style */
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+
+/* ------------------------------------------------Login Box */
+
+.loginBox {
+    overflow: inherit;
+    /* color + style */
+    background-color: #282828;
+    float: right;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    
+    /* size */
+    width: 500px;
+    height: 400px;
+    
+}
+
+.loginBox h1 {
+    /* color + style */
+    color: white;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.loginBox p {
+    /* color + style */
+    color: white;
+    font-family: monospace;
+    margin-right: 340px;
+}
+
+.loginBox button{
+    /* size  & format */
+    width: 342px;
+    padding: 10px 20px;
+    margin: 23px auto;
+    /* color & decoration */
+    font-family: monospace;
+    background-color: white;
+    border: 1px solid white;
+    
+}
+
+.loginBox input{
+    /* color + style */
+    width: 340px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+.loginBox a{
+    /* color + style */
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    /* format */
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    /* size */
+    width: 300px;
+}
+
+.loginBox a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
